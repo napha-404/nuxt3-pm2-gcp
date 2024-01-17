@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
-    baseURL: process.env.NODE_ENV == "production" ? "/nuxt" : "/",
+    baseURL: process.env.NODE_ENV == "production" ? "/admin" : "/",
   },
 });
