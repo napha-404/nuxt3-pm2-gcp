@@ -36,7 +36,7 @@ module.exports = {
       // post-deploy action
       "post-deploy":
         "npm install && npm run build && pm2 startOrRestart ecosystem.config.cjs --env production",
-      deploy: "pm2 deploy ecosystem.config.js production",
+      deploy: "pm2 deploy ecosystem.config.cjs production",
     },
   },
 };
