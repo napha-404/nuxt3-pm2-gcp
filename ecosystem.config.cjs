@@ -6,6 +6,14 @@ module.exports = {
       exec_mode: "cluster",
       instances: "max",
       script: "./.output/server/index.mjs",
+      ignore_watch: ["node_modules", "tmp", ".git"],
+      watch_delay: 1000,
+      env: {
+        NODE_ENV: "development",
+      },
+      env_production: {
+        NODE_ENV: "production",
+      },
     },
   ],
   deploy: {
