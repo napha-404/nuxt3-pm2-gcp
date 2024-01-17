@@ -21,9 +21,9 @@ module.exports = {
       // can be either a single string or an array of strings
       ssh_options: "StrictHostKeyChecking=no",
       // GIT remote/branch
-      ref: "origin/master",
+      ref: "origin/main",
       // GIT remote
-      repo: "git@github.com:Username/repository.git",
+      repo: "git@github.com:napha-404/nuxt3-pm2-gcp.git",
       // path in the server
       path: "/var/www/apps/nuxt-app",
       // Pre-setup command or path to a script on your local machine
