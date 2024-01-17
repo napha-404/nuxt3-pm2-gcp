@@ -35,8 +35,7 @@ module.exports = {
       "pre-deploy-local": "echo 'This is a local executed command'",
       // post-deploy action
       "post-deploy":
-        "npm install && npm run build && pm2 startOrRestart ecosystem.config.cjs --env production",
-      deploy: "pm2 deploy ecosystem.config.cjs production",
+        "npm install && npm run build && pm2 startOrRestart ecosystem.config.js --env production DEBUG='pw:api'",
     },
   },
 };
