@@ -12,7 +12,7 @@ module.exports = {
     // "production" is the environment name
     production: {
       // SSH key path, default to $HOME/.ssh
-      key: "/home/napha/.ssh/gcp-lesson-120.pub",
+      key: "/home/napha/.ssh/id_rsa.pub",
       // SSH user
       user: "napha",
       // SSH host
