@@ -25,7 +25,7 @@ module.exports = {
       // GIT remote
       repo: "git@github.com:napha-404/nuxt3-pm2-gcp.git",
       // path in the server
-      path: "/var/www/apps/demo-nuxt",
+      path: "/var/www/apps/demo-nuxt/source",
       // Pre-setup command or path to a script on your local machine
       // "pre-setup": "apt-get install git ; ls -la",
       // Post-setup commands or path to a script on the host machine
