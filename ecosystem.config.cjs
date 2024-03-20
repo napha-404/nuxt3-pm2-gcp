@@ -24,7 +24,7 @@ module.exports = {
       // SSH user
       user: "napha",
       // SSH host
-      host: ["34.143.142.233"],
+      host: ["34.67.4.214"],
       // SSH options with no command-line flag, see 'man ssh'
       // can be either a single string or an array of strings
       ssh_options: "StrictHostKeyChecking=no",
